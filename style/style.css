@@ -118,14 +118,15 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
+  width: 40%;
 }
 
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
+  top: -30px;
   left: 41.5%;
   /* transform: scale(0.1); */
 }
@@ -241,7 +242,7 @@ body {
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 38%;
   }
 }
 
@@ -253,7 +254,7 @@ body {
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 30%;
   }
 }
 
@@ -279,9 +280,13 @@ body {
     font-size: 10rem;
   }
 
+  .six img{
+    width: 80%;
+  }
+
   .six .hat {
     width: 50px;
-    top: -20px;
+    top: 20px;
   }
 
   .wish-hbd {
